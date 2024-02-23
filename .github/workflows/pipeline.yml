@@ -111,7 +111,7 @@ jobs:
  
     steps: 
     - id: report-count
-      uses: patch-1/arg-count-action@main
+      uses: dtbuegeCS50/arg-count-action@main
       with: 
        arguments-to-count: ${{ github.event.inputs.myValues }}
     - run: echo 
